@@ -1,0 +1,13 @@
+name: milp
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10.12
+  - pip
+  - jupyter
+  - jupyterlab
+  - pip:
+    - -r requirements.txt
